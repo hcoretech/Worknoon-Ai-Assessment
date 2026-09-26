@@ -1,0 +1,10 @@
+node_modules
+.env
+backend/.env
+frontend/.next/
+backend/node_modules/
+frontend/node_modules/
+
+# Operating System Logs
+.DS_Store
+*.log

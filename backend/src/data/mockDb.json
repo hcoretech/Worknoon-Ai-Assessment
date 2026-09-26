@@ -1,0 +1,192 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-001",
+      "customerName": "Chidi Okafor",
+      "purchaseDate": "2026-09-20",
+      "amount": 120,
+      "isFinalSale": false,
+      "items": [
+        "Wireless Headphones"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-002",
+      "customerName": "Amara Bello",
+      "purchaseDate": "2026-09-15",
+      "amount": 650,
+      "isFinalSale": false,
+      "items": [
+        "4K Gaming Monitor"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-003",
+      "customerName": "Tunde Bakare",
+      "purchaseDate": "2026-09-10",
+      "amount": 45,
+      "isFinalSale": true,
+      "items": [
+        "Clearance Running Shoes"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-004",
+      "customerName": "Funmi Adebayo",
+      "purchaseDate": "2026-05-01",
+      "amount": 89.99,
+      "isFinalSale": false,
+      "items": [
+        "Leather Handbag"
+      ],
+      "riskScore": "medium"
+    },
+    {
+      "orderId": "ORD-005",
+      "customerName": "Emeka Nwosu",
+      "purchaseDate": "2026-09-24",
+      "amount": 15,
+      "isFinalSale": false,
+      "items": [
+        "Ceramic Coffee Mug"
+      ],
+      "riskScore": "high"
+    },
+    {
+      "orderId": "ORD-006",
+      "customerName": "Zainab Abubakar",
+      "purchaseDate": "2026-09-22",
+      "amount": 550,
+      "isFinalSale": false,
+      "items": [
+        "Designer Sunglasses"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-007",
+      "customerName": "Oluwaseun Ajayi",
+      "purchaseDate": "2026-09-18",
+      "amount": 35.5,
+      "isFinalSale": true,
+      "items": [
+        "Discount Wallet"
+      ],
+      "riskScore": "medium"
+    },
+    {
+      "orderId": "ORD-008",
+      "customerName": "Chioma Nnaji",
+      "purchaseDate": "2026-09-02",
+      "amount": 210,
+      "isFinalSale": false,
+      "items": [
+        "Mechanical Keyboard"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-009",
+      "customerName": "Ibrahim Musa",
+      "purchaseDate": "2026-04-12",
+      "amount": 1200,
+      "isFinalSale": false,
+      "items": [
+        "Premium DSLR Camera Lens"
+      ],
+      "riskScore": "high"
+    },
+    {
+      "orderId": "ORD-010",
+      "customerName": "Yetunde Ojo",
+      "purchaseDate": "2026-09-23",
+      "amount": 75,
+      "isFinalSale": false,
+      "items": [
+        "Ergonomic Seat Cushion"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-011",
+      "customerName": "Damilola Balogun",
+      "purchaseDate": "2026-09-25",
+      "amount": 310,
+      "isFinalSale": false,
+      "items": [
+        "Smart Home Router"
+      ],
+      "riskScore": "high"
+    },
+    {
+      "orderId": "ORD-012",
+      "customerName": "Nkechi Aliyu",
+      "purchaseDate": "2026-09-19",
+      "amount": 180,
+      "isFinalSale": false,
+      "items": [
+        "Voice Recorder Dictaphone"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-013",
+      "customerName": "Tariq Yusuf",
+      "purchaseDate": "2026-09-14",
+      "amount": 95,
+      "isFinalSale": false,
+      "items": [
+        "Custom Corporate Award Trophy"
+      ],
+      "riskScore": "medium"
+    },
+    {
+      "orderId": "ORD-014",
+      "customerName": "Efe Omowole",
+      "purchaseDate": "2026-09-21",
+      "amount": 420,
+      "isFinalSale": false,
+      "items": [
+        "Studio Condenser Microphone"
+      ],
+      "riskScore": "low"
+    },
+    {
+      "orderId": "ORD-015",
+      "customerName": "Bashir Umar",
+      "purchaseDate": "2026-08-15",
+      "amount": 140,
+      "isFinalSale": false,
+      "items": [
+        "Accounting Ledger Software"
+      ],
+      "riskScore": "low"
+    }
+  ],
+  "logs": [],
+  "auditLogs": [
+    {
+      "id": "LOG-1790448961635",
+      "orderId": "ORD-002",
+      "customerName": "Amara Bello",
+      "amount": 650,
+      "reason": "the gaming pad is faulty",
+      "outcome": "Escalated",
+      "notes": "Hard Policy: Order totals exceeding $500 demand manual supervisor audit.",
+      "timestamp": "2026-09-26T18:56:01.635Z"
+    },
+    {
+      "id": "LOG-1790448999135",
+      "orderId": "ORD-008",
+      "customerName": "Chioma Nnaji",
+      "amount": 210,
+      "reason": "some keys on the keyboard are not working",
+      "outcome": "Approved",
+      "notes": "The item is not final sale, the customer's account risk score is low, and the claim provides a descriptive explanation of a defective product (keys not working on the mechanical keyboard).",
+      "timestamp": "2026-09-26T18:56:39.135Z"
+    }
+  ]
+}
