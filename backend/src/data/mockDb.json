@@ -166,57 +166,5 @@
       "riskScore": "low"
     }
   ],
-  "logs": [],
-  "auditLogs": [
-    {
-      "id": "LOG-1790448961635",
-      "orderId": "ORD-002",
-      "customerName": "Amara Bello",
-      "amount": 650,
-      "reason": "the gaming pad is faulty",
-      "outcome": "Escalated",
-      "notes": "Hard Policy: Order totals exceeding $500 demand manual supervisor audit.",
-      "timestamp": "2026-09-26T18:56:01.635Z"
-    },
-    {
-      "id": "LOG-1790448999135",
-      "orderId": "ORD-008",
-      "customerName": "Chioma Nnaji",
-      "amount": 210,
-      "reason": "some keys on the keyboard are not working",
-      "outcome": "Approved",
-      "notes": "The item is not final sale, the customer's account risk score is low, and the claim provides a descriptive explanation of a defective product (keys not working on the mechanical keyboard).",
-      "timestamp": "2026-09-26T18:56:39.135Z"
-    },
-    {
-      "id": "LOG-1790458712803",
-      "orderId": "ORD-015",
-      "customerName": "Bashir Umar",
-      "amount": 140,
-      "reason": "this legder is showing error when installing",
-      "outcome": "Escalated",
-      "notes": "The customer reports an installation error for digital software. Because this involves technical troubleshooting and digital license verification rather than a clearly verifiable damaged or incorrect physical item, the claim does not cleanly map to deterministic approval or rejection and requires human analysis.",
-      "timestamp": "2026-09-26T21:38:32.803Z"
-    },
-    {
-      "id": "LOG-1790458794848",
-      "orderId": "ORD-014",
-      "customerName": "Efe Omowole",
-      "amount": 420,
-      "reason": "the microphone i bought from the online store is faulty",
-      "outcome": "Escalated",
-      "notes": "The customer claims the microphone is faulty, but the description is vague and lacks sufficient detail regarding the specific defect. Additionally, since the item is a studio condenser microphone with a significant purchase amount and the claim does not clearly map to an automatic approval or rejection, it must be escalated for human analysis.",
-      "timestamp": "2026-09-26T21:39:54.848Z"
-    },
-    {
-      "id": "LOG-1790458878060",
-      "orderId": "ORD-001",
-      "customerName": "Chidi Okafor",
-      "amount": 120,
-      "reason": "notice a broken part from the headphone i bought",
-      "outcome": "Escalated",
-      "notes": "System Safeguard: Request gracefully escalated to human support due to internal capacity constraints on the AI provider infrastructure.",
-      "timestamp": "2026-09-26T21:41:18.061Z"
-    }
-  ]
+  "logs": []
 }

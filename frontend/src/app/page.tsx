@@ -53,7 +53,7 @@ export default function Home() {
         <textarea value={reason} onChange={e => setReason(e.target.value)} required rows={4} style={{ padding: '8px' }} placeholder="Explain the problem..."></textarea>
 
         <button type="submit" disabled={loading} style={{ padding: '10px', background: '#0070f3', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
-          {loading ? 'Processing Automated Review...' : 'Submit '}
+          {loading ? 'Processing Automated Review...' : 'File Claim'}
         </button>
       </form>
 
