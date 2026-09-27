@@ -87,7 +87,7 @@ export const evaluateRefundWithAI = async (
         config: requestConfig
       });
       
-      // FIX: Cleaned property access access format (.text) removes execution crashes completely
+
       return JSON.parse(fallbackResponse.text || '{}') as AIDecisionResponse;
     } catch (fallbackError) {
       console.error('All alternative model configurations exhausted:', fallbackError);

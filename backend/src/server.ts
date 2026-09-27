@@ -5,13 +5,8 @@ import path from 'path';
 import { evaluateRefundWithAI } from './services/aiService.js';
 import { fileURLToPath } from 'url';
 
-// 1. Manually recreate __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// 2. Your database path logic will now work flawlessly
-
-
 
 
 const app = express();
